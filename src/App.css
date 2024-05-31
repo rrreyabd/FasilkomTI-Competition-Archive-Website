@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.sidenav_scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.sidenav_scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Handle */
+.sidenav_scrollbar::-webkit-scrollbar-thumb {
+    background: #6941c6;
+    cursor: grab;
+}
+
+/* Handle on hover */
+.sidenav_scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #5736a4;
+}
